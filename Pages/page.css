@@ -31,6 +31,7 @@ html {
   line-height: 1;
   font-size: 14px;
   font-weight: 500;
+  background-color: #fafafa;
 }
 
 .wrapper {
@@ -42,7 +43,7 @@ html {
 }
 
 ._container {
-  max-width: 1042px;
+  max-width: 1044px;
   margin: 0 auto;
   padding: 0 15px;
   box-sizing: content-box;
@@ -241,6 +242,53 @@ html {
 .main-block__button_transparent {
   color: #0D5C63;
   outline: 1px solid #0D5C63;
+}
+
+/*=====SERVICES=====*/
+.services__cards {
+  margin: -111px 0 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  column-gap: 30px;
+  flex-wrap: wrap;
+}
+
+.card {
+  margin: 0;
+  max-width: 328px;
+  padding: 35px 54px 35px 40px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.card > *:not(:last-child) {
+  margin: 0 0 10px 0;
+}
+
+.card__type_dark {
+  background-color: #0D5C63;
+}
+
+.card__title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.33;
+  letter-spacing: 0.1px;
+  color: #252b42;
+}
+
+.card__subtitle {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.43;
+  letter-spacing: 0.2px;
+  color: #737373;
+}
+
+.white-text {
+  color: white;
 }
 
 /*=====FOOTER=====*/
